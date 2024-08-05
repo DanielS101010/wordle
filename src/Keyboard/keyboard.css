@@ -1,0 +1,36 @@
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .keyboard-row {
+    display: flex;
+    margin: 5px 0;
+  }
+  
+  .keyboard-key {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: grey;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    color: white;
+  }
+  
+  .keyboard-key:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .special-key {
+    width: 6em;
+  }
+  
