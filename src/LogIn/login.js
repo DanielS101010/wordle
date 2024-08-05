@@ -31,7 +31,7 @@ const Login = ({ onLogin }) => {
         onChange={(e) => setPassword(e.target.value)}
       />
       <div>
-        <button onClick={handleLogin}>Sign In</button>
+        <button onClick={handleLogin}>login</button>
       </div>
       
     </div>
