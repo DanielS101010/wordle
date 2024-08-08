@@ -2,21 +2,21 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './keyboard.css';
 
- /*const Keyboard = ({ onKeyPress }) => {
+ const Keyboard = ({ onKeyPress }) => {
   const keys = [
     'QWERTZUIOP',
     'ASDFGHJKL',
     'YXCVBNM'
   ]; 
-  */
+  
 
-  const Keyboard = ({ onKeyPress }) => {
+ /* const Keyboard = ({ onKeyPress }) => {
     const keys = [
       'ABCDEFGH',
       'IJKLMOPQR',
       'STUVWXYZ'
     ]; 
-
+*/
   const handleKeyClick = (key) => {
     onKeyPress(key);
   };
